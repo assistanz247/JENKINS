@@ -1,7 +1,7 @@
 #THIS DOCKER FILE IS DEVELOPED BY ASSISTANZ NETWORKS
 
 #SPECIFY THE CONTAINER IMAGE
-FROM microsoft/windowsservercore
+FROM mcr.microsoft.com/windows/servercore:ltsc2019
 
 #COPY THE JENKINS INSTALLATION FILES INTO THE CONTAINER
 ADD ./setup c:/jenkins
